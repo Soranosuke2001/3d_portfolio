@@ -7,13 +7,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -25,6 +22,9 @@ import {
   frontend,
   networking,
   game,
+  nextjs,
+  prisma,
+  python
 } from "../assets";
 
 export const navLinks = [
@@ -75,6 +75,34 @@ const services = [
 
 const technologies = [
   {
+    title: "Next JS",
+    icon: nextjs
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -83,36 +111,12 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Prisma",
+    icon: prisma,
   },
   {
     name: "git",
@@ -121,10 +125,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
