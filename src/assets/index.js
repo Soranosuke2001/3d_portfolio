@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+// Services Icons
 import web from "./web.png";
 import frontend from "./frontend.png";
+import backend from "./backend.png";
 import networking from "./networking.png";
 import game from "./game.png";
+import mobile from "./mobile.png";
+
+import logo from "./logo.svg";
+import creator from "./creator.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
