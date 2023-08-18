@@ -2,6 +2,8 @@ import React from "react";
 
 import { SectionWrapper } from "../hoc";
 import Modal from "react-modal";
+import { resume } from "../assets";
+import { XSquare } from "lucide-react";
 
 Modal.setAppElement("body");
 
@@ -22,16 +24,20 @@ const Resume = () => {
         contentLabel="Example Modal"
         className="resume-modal"
       >
-        <div className="flex flex-col justify-around h-full">
-          <button onClick={() => setIsOpen(false)}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
+        <div className="absolute right-3 top-3">
+          <button
+            onClick={() => setIsOpen(false)}
+          >
+            <XSquare className="h-16 w-16" />
+          </button>
+        </div>
+        <div className="h-full flex justify-center items-center">
+          <div className="h-[90%] w-5/6">
+            <iframe
+              src={resume}
+              className="h-full w-full"
+            ></iframe>
+          </div>
         </div>
       </Modal>
     </>

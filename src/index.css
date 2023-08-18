@@ -15,7 +15,8 @@
 
 .resume-modal {
   height: 100vh;
-  background-color: #000000;
+  background-color: #272829;
+  overflow: auto;
 }
 
 .custom-button {

@@ -21,6 +21,9 @@ import prisma from "./tech/prisma.png";
 import git from "./tech/git.png";
 import figma from "./tech/figma.png";
 
+// Resume
+import resume from './resume.pdf'
+
 // Project Images
 import network from "./projects/network.png";
 import flappybird from "./projects/flappybird.png";
@@ -43,6 +46,7 @@ import close from "./close.svg";
 import tripguide from "./tripguide.png";
 
 export {
+  resume,
   coffeeshops,
   redext,
   aimtrainer,
