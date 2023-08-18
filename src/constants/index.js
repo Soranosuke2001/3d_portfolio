@@ -24,6 +24,8 @@ import {
   bcit,
   keg,
   studying,
+  network,
+  flappybird
 } from "../assets";
 
 export const navLinks = [
@@ -358,7 +360,7 @@ const otherProjects = [
         color: "green-text-gradient",
       },
     ],
-    image: "",
+    image: flappybird,
     source_code_link: "https://github.com/Soranosuke2001/FlappyBird_Pygame.git",
     live_Link: null,
   },
@@ -377,7 +379,7 @@ const otherProjects = [
         color: "green-text-gradient",
       },
     ],
-    image: "",
+    image: network,
     source_code_link: null,
     live_Link: null,
   },

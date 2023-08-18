@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { live } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { otherProjects, projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -16,6 +17,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   index,
+  live_Link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -34,6 +36,18 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            {live_Link ? (
+              <div
+                onClick={() => window.open(live_Link, "_blank")}
+                className={`mr-3 w-11 h-w-11 cursor-pointer`}
+              >
+                <img
+                  src={live}
+                  alt="live icon"
+                  className="w-40 h-w-40 object-contain"
+                />
+              </div>
+            ) : null}
             <div
               onClick={() =>
                 source_code_link
