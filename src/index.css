@@ -9,8 +9,28 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
   color-scheme: dark;
+  scroll-behavior: smooth;
+
+  /* FIrefox scrollbar settings */
+  scrollbar-width: thin;
+  scrollbar-color: #272829;
+}
+
+/* Chrome, edge, and Safari scrollbar settings */
+body::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+  border: none;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ced4da;
+  border-radius: 20px;
 }
 
 .resume-modal {
@@ -31,7 +51,6 @@
   color: #36395a;
   cursor: pointer;
   display: inline-flex;
-  /* font-family: "JetBrains Mono", monospace; */
   height: 48px;
   justify-content: center;
   line-height: 1;
