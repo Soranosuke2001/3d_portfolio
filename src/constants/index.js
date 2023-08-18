@@ -11,8 +11,6 @@ import {
   nodejs,
   git,
   figma,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   frontend,
@@ -26,7 +24,9 @@ import {
   studying,
   network,
   flappybird,
-  aimtrainer
+  aimtrainer,
+  coffeeshops,
+  redext
 } from "../assets";
 
 export const navLinks = [
@@ -232,7 +232,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: redext,
     source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/Redext",
     live_Link: "https://redext.vercel.app/",
@@ -256,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: coffeeshops,
     source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
     live_Link: "https://discover-coffee-shops-two.vercel.app/",

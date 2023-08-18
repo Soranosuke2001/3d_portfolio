@@ -25,6 +25,8 @@ import figma from "./tech/figma.png";
 import network from "./projects/network.png";
 import flappybird from "./projects/flappybird.png";
 import aimtrainer from "./projects/aimtrainer.png";
+import coffeeshops from "./projects/coffeeshops.png";
+import redext from "./projects/redext.png";
 
 // Work Experience Logos
 import bcit from "./company/bcit.png";
@@ -38,11 +40,11 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  coffeeshops,
+  redext,
   aimtrainer,
   live,
   flappybird,
@@ -64,8 +66,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
   tripguide,
   frontend,
   networking,
