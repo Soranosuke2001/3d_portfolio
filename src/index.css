@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+.resume-modal {
+  height: 100vh;
+  background-color: #000000;
+}
+
 .custom-button {
   align-items: center;
   appearance: none;
