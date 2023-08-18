@@ -25,7 +25,8 @@ import {
   keg,
   studying,
   network,
-  flappybird
+  flappybird,
+  aimtrainer
 } from "../assets";
 
 export const navLinks = [
@@ -208,6 +209,7 @@ const projects = [
     description:
       "A Reddit clone built using Next.js. Users are able to create communities, posts, and comments. Users are also able to upvote/downvote on comments and posts.",
     status: "Ongoing",
+    date: "",
     tags: [
       {
         name: "Next.js",
@@ -231,13 +233,14 @@ const projects = [
       },
     ],
     image: carrent,
+    source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/Redext",
     live_Link: "https://redext.vercel.app/",
   },
   {
     name: "Discover Coffee Shops",
     description:
-    "Web application that enables users to view nearby coffee shops. The site will request for location access then search for all coffee shops near the user.",
+      "Web application that enables users to view nearby coffee shops. The site will request for location access then search for all coffee shops near the user.",
     status: "Completed",
     tags: [
       {
@@ -254,6 +257,7 @@ const projects = [
       },
     ],
     image: jobit,
+    source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
     live_Link: "https://discover-coffee-shops-two.vercel.app/",
   },
@@ -277,6 +281,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/AirbNext-App",
     live_Link: null,
   },
@@ -300,6 +305,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_Code: 'github',
     source_code_link: "https://github.com/Gavin-Sharma/Tinyslice",
     live_Link: null,
   },
@@ -323,6 +329,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/React-Meetup",
     live_Link: null,
   },
@@ -361,6 +368,7 @@ const otherProjects = [
       },
     ],
     image: flappybird,
+    source_Code: 'github',
     source_code_link: "https://github.com/Soranosuke2001/FlappyBird_Pygame.git",
     live_Link: null,
   },
@@ -380,8 +388,25 @@ const otherProjects = [
       },
     ],
     image: network,
+    source_Code: 'github',
     source_code_link: null,
     live_Link: null,
+  },
+  {
+    name: "Aim Trainer Prototype Project",
+    description:
+      "This was an assignment from a UX/UI class. The objective of this project was to learn the fundamentals of Figma and to learn the basic workflow of a UX/UI designer. We were able to conduct user testings using the prototype.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: aimtrainer,
+    source_Code: 'figma',
+    source_code_link: "https://www.figma.com/file/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=0%3A1&mode=design&t=lqUxltxiJXZBi0JW-1",
+    live_Link: "https://www.figma.com/proto/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=2-4&t=I7yzjXa5QxUz7PV4-1&scaling=contain&page-id=0%3A1&starting-point-node-id=2%3A4&mode=design",
   },
 ];
 

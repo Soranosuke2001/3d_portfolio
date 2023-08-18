@@ -24,6 +24,7 @@ import figma from "./tech/figma.png";
 // Project Images
 import network from "./projects/network.png";
 import flappybird from "./projects/flappybird.png";
+import aimtrainer from "./projects/aimtrainer.png";
 
 // Work Experience Logos
 import bcit from "./company/bcit.png";
@@ -42,6 +43,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  aimtrainer,
   live,
   flappybird,
   network,
