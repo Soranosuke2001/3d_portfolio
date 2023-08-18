@@ -23,7 +23,7 @@ import {
   python,
   bcit,
   keg,
-  studying
+  studying,
 } from "../assets";
 
 export const navLinks = [
@@ -76,7 +76,7 @@ const technologies = [
   {
     id: 1,
     title: "Next JS",
-    icon: nextjs
+    icon: nextjs,
   },
   {
     id: 2,
@@ -155,7 +155,7 @@ const experiences = [
       "Utilized Git to manage and track ",
       "Studied and utilized different project management methodologies including, Agile, Scrum, and Waterfall methodology",
       "Constructed a networking router which includes DHCP, NAT, DNS and packet filtering routers along side 4 nodes",
-      "Built a FlappyBird clone using Pygame and incorporated the OOP concept"
+      "Built a FlappyBird clone using Pygame and incorporated the OOP concept",
     ],
   },
   {
@@ -195,65 +195,78 @@ const experiences = [
       "Configured a microcontroller to build a small vehicle controlled via bluetooth",
       "Utilized AutoCAD to design and build a power supply",
       "Analyzed and design circuit diagrams and brainstormed the expected outcome then physically tested the circuit",
-      "The program was not completed since I found my passion for coding more than designing circuits"
+      "The program was not completed since I found my passion for coding more than designing circuits",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Redext",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Reddit clone built using Next.js. Users are able to create communities, posts, and comments. Users are also able to upvote/downvote on comments and posts.",
+    status: "Ongoing",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Prisma",
         color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "planetscale",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Soranosuke2001/Redext",
+    live_Link: "https://redext.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Discover Coffee Shops",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Web application that enables users to view nearby coffee shops. The site will request for location access then search for all coffee shops near the user.",
+    status: "Completed",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
+    live_Link: "https://discover-coffee-shops-two.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Airbnext",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Airbnb clone built using Next.js. Users are able to search through various housing options and filter through all postings. Users can also book the housing and other users will not be able to select the booked dates.",
+    status: "Completed",
     tags: [
       {
-        name: "nextjs",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
@@ -262,8 +275,112 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Soranosuke2001/AirbNext-App",
+    live_Link: null,
+  },
+  {
+    name: "TinySlice",
+    description:
+      "Web based spending tracker application. This project was completed in a team setting and following the scrum methodology. The main objective was to experience and understand the flow of the Scrum methodology.",
+    status: "Completed",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Gavin-Sharma/Tinyslice",
+    live_Link: null,
+  },
+  {
+    name: "React Meetup",
+    description:
+      "Web based spending tracker application. This project was completed in a team setting and following the scrum methodology. The main objective was to experience and understand the flow of the Scrum methodology.",
+    status: "Completed",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Soranosuke2001/React-Meetup",
+    live_Link: null,
   },
 ];
 
-export { services, technologies, experiences, projects };
+const otherProjects = [
+  {
+    name: "Flappy Bird",
+    description:
+      "A Flappy Bird clone built using Pygame. The objective of this project was to test my OOP skills and to learn the fundamentals of creating a game using Python.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pygame",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "",
+    source_code_link: "https://github.com/Soranosuke2001/FlappyBird_Pygame.git",
+    live_Link: null,
+  },
+  {
+    name: "Router Project",
+    description:
+      "This was an assignment from a networking class. The purpose was to build a fully functional network which includes, 4 nodes and multiple routers using NAT, DNS, DHCP and packet filtering.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Linux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bash",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "",
+    source_code_link: null,
+    live_Link: null,
+  },
+];
+
+export { services, technologies, experiences, projects, otherProjects };

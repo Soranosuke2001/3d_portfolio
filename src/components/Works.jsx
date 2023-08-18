@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { otherProjects, projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -35,8 +35,14 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() =>
+                source_code_link
+                  ? window.open(source_code_link, "_blank")
+                  : null
+              }
+              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${
+                !source_code_link ? "opacity-40" : ""
+              }`}
             >
               <img
                 src={github}
@@ -78,13 +84,28 @@ const Works = () => {
         >
           The following projects showcases my skills and experiences through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and possible live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage project effectively.
+          links to code repositories and possible live demos in it. It reflects
+          my ability to solve complex problems, work with different
+          technologies, and manage project effectively.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+
+      <br />
+      <motion.div variants={textVariant()}>
+        <h3 className={styles.sectionSubHead}>Web Based</h3>
+      </motion.div>
+      <div className="mt-10 flex flex-wrap gap-7">
         {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} {...project} index={index} />
+        ))}
+      </div>
+
+      <br />
+      <motion.div variants={textVariant()}>
+        <h3 className={styles.sectionSubHead}>Other</h3>
+      </motion.div>
+      <div className="mt-10 flex flex-wrap gap-7">
+        {otherProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
       </div>
