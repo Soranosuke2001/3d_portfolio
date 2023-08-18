@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -43,7 +44,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get aback to you as soon as possible!");
+          toast.success("Email Sent Successfully!");
 
           setForm({
             name: "",
@@ -54,8 +55,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
 
-          console.log(error);
-          alert("Something went wrong.");
+          toast.error("Unable to Send Email. Please try again later.");
         }
       );
   };
