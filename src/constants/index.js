@@ -1,4 +1,5 @@
 import {
+  tinyslice,
   mobile,
   backend,
   web,
@@ -11,7 +12,6 @@ import {
   nodejs,
   git,
   figma,
-  tripguide,
   threejs,
   frontend,
   networking,
@@ -28,6 +28,7 @@ import {
   coffeeshops,
   redext,
   noimage,
+  airbnext,
 } from "../assets";
 
 export const navLinks = [
@@ -295,7 +296,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: airbnext,
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/AirbNext-App",
     live_Link: null,
@@ -319,7 +320,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: tinyslice,
     source_Code: "github",
     source_code_link: "https://github.com/Gavin-Sharma/Tinyslice",
     live_Link: null,

@@ -31,6 +31,8 @@ import aimtrainer from "./projects/aimtrainer.png";
 import coffeeshops from "./projects/coffeeshops.png";
 import redext from "./projects/redext.png";
 import noimage from "./projects/noimage.png";
+import airbnext from "./projects/airbnext.png";
+import tinyslice from './projects/tinyslice.png'
 
 // Work Experience Logos
 import bcit from "./company/bcit.png";
@@ -43,9 +45,10 @@ import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import tripguide from "./tripguide.png";
 
 export {
+  tinyslice,
+  airbnext,
   noimage,
   resume,
   coffeeshops,
@@ -70,7 +73,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  tripguide,
   frontend,
   networking,
   game,
