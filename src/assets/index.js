@@ -32,21 +32,26 @@ import coffeeshops from "./projects/coffeeshops.png";
 import redext from "./projects/redext.png";
 import noimage from "./projects/noimage.png";
 import airbnext from "./projects/airbnext.png";
-import tinyslice from './projects/tinyslice.png'
+import tinyslice from "./projects/tinyslice.png";
+import reservenext from "./projects/reservenext.png";
+import nextflix from "./projects/nextflix.png";
+
+// Project Icons
+import github from "./projects/icons/github.png";
+import live from "./projects/icons/live.png";
 
 // Work Experience Logos
 import bcit from "./company/bcit.png";
 import keg from "./company/keg.jpg";
 import studying from "./company/studying.png";
 
-import github from "./github.png";
-import live from "./live.png";
-
+// Nav Icons
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-
 export {
+  nextflix,
+  reservenext,
   tinyslice,
   airbnext,
   noimage,

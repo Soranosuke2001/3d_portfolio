@@ -29,6 +29,8 @@ import {
   redext,
   noimage,
   airbnext,
+  reservenext,
+  nextflix
 } from "../assets";
 
 export const navLinks = [
@@ -292,8 +294,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "blue-text-gradient",
       },
     ],
     image: airbnext,
@@ -302,9 +312,53 @@ const projects = [
     live_Link: null,
   },
   {
+    name: "ReserveNext",
+    description:
+      "OpenTable clone built using Next.js. Users are able to view at all the restaurants that have been registered to the database. Users can create accounts to write and view reviews for each restaurant, and book a reservation at the restaurant.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: reservenext,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/ReserveNext-App",
+    live_Link: null,
+  },
+  {
     name: "TinySlice",
     description:
-      "Web based spending tracker application. This project was completed in a team setting and following the scrum methodology. The main objective was to experience and understand the flow of the Scrum methodology.",
+      "Web based spending tracker application which stores the data in local storage. This project was completed in a team setting and following the scrum methodology. The main objective was to experience and understand the flow of the Scrum methodology.",
     status: "Completed",
     tags: [
       {
@@ -319,10 +373,54 @@ const projects = [
         name: "Python",
         color: "pink-text-gradient",
       },
+      {
+        name: "Flask",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JSON",
+        color: "orange-text-gradient",
+      },
     ],
     image: tinyslice,
     source_Code: "github",
     source_code_link: "https://github.com/Gavin-Sharma/Tinyslice",
+    live_Link: null,
+  },
+  {
+    name: "Nextflix",
+    description:
+      "Netflix clone built using Next.js. Users can login through email with a passwordless authentication system powered by Magic.link. Users can browse through different categories of videos, like videoes, which is saved to their list of liked videos and watch videos.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Hasura",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "YouTubeAPI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nextflix,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/Nextflix-App",
     live_Link: null,
   },
   {
@@ -342,6 +440,10 @@ const projects = [
       {
         name: "CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
       },
     ],
     image: noimage,
