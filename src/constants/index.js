@@ -26,25 +26,39 @@ import {
   flappybird,
   aimtrainer,
   coffeeshops,
-  redext
+  redext,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+    link: "#about",
   },
   {
     id: "projects",
     title: "Projects",
+    link: "#projects",
   },
   {
     id: "work",
     title: "Work",
+    link: "#work",
   },
   {
     id: "contact",
     title: "Contact",
+    link: "#contact",
+  },
+  {
+    id: "github",
+    title: "GitHub",
+    link: "https://github.com/Soranosuke2001",
+  },
+  {
+    id: "linkedin",
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/in/sora-schlegel-0289591b0/",
   },
 ];
 
@@ -233,7 +247,7 @@ const projects = [
       },
     ],
     image: redext,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/Redext",
     live_Link: "https://redext.vercel.app/",
   },
@@ -257,7 +271,7 @@ const projects = [
       },
     ],
     image: coffeeshops,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
     live_Link: "https://discover-coffee-shops-two.vercel.app/",
   },
@@ -281,7 +295,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/AirbNext-App",
     live_Link: null,
   },
@@ -305,7 +319,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Gavin-Sharma/Tinyslice",
     live_Link: null,
   },
@@ -329,7 +343,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/React-Meetup",
     live_Link: null,
   },
@@ -368,7 +382,7 @@ const otherProjects = [
       },
     ],
     image: flappybird,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/FlappyBird_Pygame.git",
     live_Link: null,
   },
@@ -388,7 +402,7 @@ const otherProjects = [
       },
     ],
     image: network,
-    source_Code: 'github',
+    source_Code: "github",
     source_code_link: null,
     live_Link: null,
   },
@@ -404,9 +418,11 @@ const otherProjects = [
       },
     ],
     image: aimtrainer,
-    source_Code: 'figma',
-    source_code_link: "https://www.figma.com/file/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=0%3A1&mode=design&t=lqUxltxiJXZBi0JW-1",
-    live_Link: "https://www.figma.com/proto/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=2-4&t=I7yzjXa5QxUz7PV4-1&scaling=contain&page-id=0%3A1&starting-point-node-id=2%3A4&mode=design",
+    source_Code: "figma",
+    source_code_link:
+      "https://www.figma.com/file/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=0%3A1&mode=design&t=lqUxltxiJXZBi0JW-1",
+    live_Link:
+      "https://www.figma.com/proto/i61xJ8vsTwPzRJO88MNCpy/2811-Digital-User-Flow?type=design&node-id=2-4&t=I7yzjXa5QxUz7PV4-1&scaling=contain&page-id=0%3A1&starting-point-node-id=2%3A4&mode=design",
   },
 ];
 

@@ -22,7 +22,7 @@ import git from "./tech/git.png";
 import figma from "./tech/figma.png";
 
 // Resume
-import resume from './resume.pdf'
+import resume from "./resume.pdf";
 
 // Project Images
 import network from "./projects/network.png";
@@ -39,7 +39,6 @@ import studying from "./company/studying.png";
 import github from "./github.png";
 import live from "./live.png";
 
-import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -53,7 +52,6 @@ export {
   live,
   flappybird,
   network,
-  logo,
   backend,
   mobile,
   web,
