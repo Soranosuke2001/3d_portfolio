@@ -30,6 +30,7 @@ import flappybird from "./projects/flappybird.png";
 import aimtrainer from "./projects/aimtrainer.png";
 import coffeeshops from "./projects/coffeeshops.png";
 import redext from "./projects/redext.png";
+import noimage from "./projects/noimage.png";
 
 // Work Experience Logos
 import bcit from "./company/bcit.png";
@@ -45,6 +46,7 @@ import close from "./close.svg";
 import tripguide from "./tripguide.png";
 
 export {
+  noimage,
   resume,
   coffeeshops,
   redext,

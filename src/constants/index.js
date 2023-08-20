@@ -27,6 +27,7 @@ import {
   aimtrainer,
   coffeeshops,
   redext,
+  noimage,
 } from "../assets";
 
 export const navLinks = [
@@ -342,7 +343,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: noimage,
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/React-Meetup",
     live_Link: null,
