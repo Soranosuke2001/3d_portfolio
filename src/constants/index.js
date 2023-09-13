@@ -298,6 +298,10 @@ const projects = [
         name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Netlify",
+        color: "orange-text-gradient",
+      },
     ],
     image: foodbook,
     source_Code: "github",
