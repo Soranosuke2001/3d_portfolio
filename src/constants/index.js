@@ -30,7 +30,8 @@ import {
   noimage,
   airbnext,
   reservenext,
-  nextflix
+  nextflix,
+  foodbook,
 } from "../assets";
 
 export const navLinks = [
@@ -278,6 +279,30 @@ const projects = [
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
     live_Link: "https://discover-coffee-shops-two.vercel.app/",
+  },
+  {
+    name: "Foodbook",
+    description:
+      "Web application that enables users to view all sorts of recipes. Users can search for recipes, bookmark recipes, and upload their own recipes! The website is built by only using vanilla JS.",
+    status: "Completed",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: foodbook,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/Food-Book",
+    live_Link: "https://food-book-sora.netlify.app/",
   },
   {
     name: "Airbnext",

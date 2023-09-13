@@ -35,6 +35,7 @@ import airbnext from "./projects/airbnext.png";
 import tinyslice from "./projects/tinyslice.png";
 import reservenext from "./projects/reservenext.png";
 import nextflix from "./projects/nextflix.png";
+import foodbook from "./projects/food-book.png";
 
 // Project Icons
 import github from "./projects/icons/github.png";
@@ -50,6 +51,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+  foodbook,
   nextflix,
   reservenext,
   tinyslice,
