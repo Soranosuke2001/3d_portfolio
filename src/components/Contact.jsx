@@ -29,6 +29,14 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    emailjs.init({
+      publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      limitRate: {
+        id: "portfolioapp",
+        throttle: 10000,
+      },
+    });
+
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -38,8 +46,7 @@ const Contact = () => {
           to: "Sora",
           from_email: form.email,
           message: form.message,
-        },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        }
       )
       .then(
         () => {
@@ -54,6 +61,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
+          console.log(error)
 
           toast.error("Unable to Send Email. Please try again later.");
         }
