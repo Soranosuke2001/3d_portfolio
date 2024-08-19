@@ -31,6 +31,7 @@ const Contact = () => {
 
     emailjs.init({
       publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      privateKey: import.meta.env.VITE_EMAILJS_PRIVATE_KEY,
       limitRate: {
         id: "portfolioapp",
         throttle: 10000,
