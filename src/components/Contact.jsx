@@ -28,6 +28,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log(import.meta.env.VITE_EMAILJS_TEMPLATE_ID)
 
     emailjs
       .send(
