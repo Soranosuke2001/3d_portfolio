@@ -37,6 +37,8 @@ const Contact = () => {
       },
     });
 
+    console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
