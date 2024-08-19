@@ -28,7 +28,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log(import.meta.env.VITE_EMAILJS_TEMPLATE_ID)
 
     emailjs
       .send(
@@ -55,8 +54,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.log(error)
-
           toast.error("Unable to Send Email. Please try again later.");
         }
       );
