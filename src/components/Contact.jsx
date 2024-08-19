@@ -29,19 +29,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.init({
-      publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-      privateKey: import.meta.env.VITE_EMAILJS_PRIVATE_KEY,
-      limitRate: {
-        id: "portfolioapp",
-        throttle: 10000,
-      },
-    });
-
-    console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
-
     emailjs
-      .send(
+      .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
@@ -49,7 +38,8 @@ const Contact = () => {
           to: "Sora",
           from_email: form.email,
           message: form.message,
-        }
+        },
+        import.meta.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
