@@ -2,7 +2,6 @@ import {
   tinyslice,
   mobile,
   backend,
-  web,
   javascript,
   typescript,
   html,
@@ -15,7 +14,6 @@ import {
   threejs,
   frontend,
   networking,
-  game,
   nextjs,
   prisma,
   python,
@@ -32,6 +30,9 @@ import {
   reservenext,
   nextflix,
   foodbook,
+  videostreaming,
+  lis,
+  microservices,
 } from "../assets";
 
 export const navLinks = [
@@ -69,10 +70,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "Front End Developer",
     icon: frontend,
   },
@@ -83,10 +80,6 @@ const services = [
   {
     title: "Networking",
     icon: networking,
-  },
-  {
-    title: "Pygame Developer",
-    icon: game,
   },
   {
     title: "React Native Developer",
@@ -168,7 +161,7 @@ const experiences = [
     company_name: "BCIT",
     icon: bcit,
     iconBg: "#383E56",
-    date: "Jan 2021 - Present",
+    date: "Jan 2021 - Apr 2024",
     points: [
       "Experienced working with clients and teammates to troubleshoot the BCIT Student Association's website hosted on WordPress",
       "Studied web development fundamentals including, HTML, CSS and JavaScript",
@@ -181,14 +174,15 @@ const experiences = [
     ],
   },
   {
-    title: "Self Studying",
+    title: "Personal Projects",
     company_name: "N/A",
     icon: studying,
     iconBg: "#E6DEDD",
     date: "June 2021 - Present",
     points: [
-      "Currently developing a reddit clone, built using Next.js, TypeScript, Tailwind CSS, and Prisma",
-      "Built a Netflix clone using, Next.js with JWT to securely manage login states and user credentials",
+      "Built a LINE Image Saver app. Both the frontend to view media files and backend to save detected media files",
+      "Built a reddit clone using Next.js, TypeScript, Tailwind CSS, and Prisma",
+      "Built a Netflix clone using Next.js with JWT to securely manage login states and user credentials",
       "Built a basic Twitter clone using, the T3 stack and Prisma",
       "Built a CoffeeShop app using, Nextjs to scan the user's location and to provide nearby Coffee shops",
     ],
@@ -198,7 +192,7 @@ const experiences = [
     company_name: "The Keg",
     icon: keg,
     iconBg: "#383E56",
-    date: "June 2022 - August 2023",
+    date: "June 2022 - Apr 2024",
     points: [
       "Training new kitchen cooks on various stations which included micro managing each individual for efficient workflow",
       "Calculated, documented and distributed the tip pool for all kitchen staff each week using Excel",
@@ -224,11 +218,130 @@ const experiences = [
 
 const projects = [
   {
+    name: "LINE Image Saver",
+    description:
+      "LINE bot will detect media files sent to the group chat. Media files are then stored in an AWS S3 bucket, which can be viewed on the frontend website after logging in via LINE.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LINE API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lis,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/LINE_Image_Saver",
+    live_Link: "",
+  },
+  {
+    name: "Microservices Project",
+    description:
+      "Tracks an imaginary video game app. The services will receive data from the app, parse the data, store the data and users are able to view the data from the Dashboard service. Further details can be found in hte GitHub repo.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "jMeter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NGINX",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: microservices,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/Microservices_Project",
+    live_Link: "",
+  },
+  {
+    name: "Video Streaming Service",
+    description:
+      "The project allows authenticated users to upload videos, which is then stored in an AWS S3 bucket. Authenticated users can then view the list of videos that have been uploaded by all users.",
+    status: "Completed",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: videostreaming,
+    source_Code: "github",
+    source_code_link: "https://github.com/Soranosuke2001/Video_Streaming_Service",
+    live_Link: "",
+  },
+  {
     name: "Redext",
     description:
       "A Reddit clone built using Next.js. Users are able to create communities, posts, and comments. Users are also able to upvote/downvote on comments and posts.",
-    status: "Ongoing",
-    date: "",
+    status: "Completed",
     tags: [
       {
         name: "Next.js",
@@ -254,7 +367,7 @@ const projects = [
     image: redext,
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/Redext",
-    live_Link: "https://redext.vercel.app/",
+    live_Link: "",
   },
   {
     name: "Discover Coffee Shops",
@@ -278,7 +391,7 @@ const projects = [
     image: coffeeshops,
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/CoffeeShop-App",
-    live_Link: "https://discover-coffee-shops-two.vercel.app/",
+    live_Link: "",
   },
   {
     name: "Foodbook",
@@ -306,7 +419,7 @@ const projects = [
     image: foodbook,
     source_Code: "github",
     source_code_link: "https://github.com/Soranosuke2001/Food-Book",
-    live_Link: "https://food-book-sora.netlify.app/",
+    live_Link: "",
   },
   {
     name: "Airbnext",

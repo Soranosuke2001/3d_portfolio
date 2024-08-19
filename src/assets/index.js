@@ -36,6 +36,9 @@ import tinyslice from "./projects/tinyslice.png";
 import reservenext from "./projects/reservenext.png";
 import nextflix from "./projects/nextflix.png";
 import foodbook from "./projects/food-book.png";
+import videostreaming from "./projects/video-streaming.png"
+import lis from "./projects/lis.png"
+import microservices from "./projects/microservices.png"
 
 // Project Icons
 import github from "./projects/icons/github.png";
@@ -63,6 +66,9 @@ export {
   aimtrainer,
   live,
   flappybird,
+  videostreaming,
+  microservices,
+  lis,
   network,
   backend,
   mobile,
